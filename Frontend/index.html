@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- inicial digitar html -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj traduzir</title>
+</head>
+<!-- trocar nome documento  para Projeto traduzir-->
+<body>
+  
+    <h1>Projeto Simples de Tradução API Azure</h1>
+    <p>Bem-vindo ao nosso projeto de tradução! APP Wilson </p>
+    <p>Este é um exemplo simples de uma página HTML.</p>
+    <p>Você pode adicionar mais conteúdo aqui.</p>
+
+    <h2>Texto original</h2>
+    
+    <h2><textarea id="text-to-translate" cols="50" rows="4"></textarea></h2>
+
+<br><br>
+<!-- opcoes de linguagem -->
+ <label for="">Traduzir isso em:</label>
+
+<select id="from-language">
+
+<option value="">detectar sozinho </option>
+<option value="pt">Português</option>
+<option value="en">Inglês</option>      
+<option value="es">Espanhol</option>
+<option value="fr">Francês</option>
+<option value="de">Alemão</option>
+<option value="it">Italiano</option>
+<option value="ja">Japonês</option>
+<option value="zh">Chinês</option>
+<select>
+
+    <select id="to-language">
+
+<option value="en">Inglês </option>
+<option value="pt">Português</option>     
+<option value="es">Espanhol</option>
+<option value="fr">Francês</option>
+<option value="de">Alemão</option>
+<option value="it">Italiano</option>
+<option value="ja">Japonês</option>
+<option value="zh">Chinês</option>
+<select>
+
+    <button id = "translate-btn">Traduzir agora</button>
+
+<h2>Texto traduzido</h2>
+<textarea id="translated-text" cols="50" rows="4"readonly></textarea>
+
+<p id="status-message"></p>
+    <script src="script.js"></script>
+
+    <footer>
+   </p> &copy; 2026 Projeto Traduzir></p>
+    </footer>
+</body>
+</html>
